@@ -1,0 +1,160 @@
+<html>
+    
+    <body>
+        <!DOCTYPE html>
+<html>
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<style>
+body,h1,h2{font-family: "Raleway", sans-serif}
+body, html {height: 100%}
+p {line-height: 2}
+.bgimg, .bgimg2 {
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.bgimg {background-image: url("https://cdn.pixabay.com/photo/2016/06/02/02/33/triangles-1430105_1280.png")}
+.bgimg2 {background-image: url("/w3images/https://cdn.pixabay.com/photo/2016/06/02/02/33/triangles-1430105_1280.png.jpg")}
+</style>
+</head>
+<body>
+
+<!-- Header / Home-->
+<header class="w3-display-container w3-wide bgimg w3-grayscale-min" id="home">
+  <div class="w3-display-middle w3-text-white w3-center">
+    <h1 class="w3-jumbo">Hola, Nanu {{data.name}}!</h1>
+    <h3>
+
+      I am {{data.name}}. I am from {{data.city}} and am very passionate about
+      
+      {{data.hobbies}}.{{data.hobbies}} makes me feel good and excites me all the time.
+      
+      I have completed my {{data.qualification}} and have plans of becoming an {{data.ambitions}}.
+      
+      
+      
+      </h3>
+    
+  </div>
+</header>
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #5a10d2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #ae0a597a;
+  color: rgb(255, 255, 255);
+}
+</style>
+</head>
+<body>
+  <div class="w3-container w3-padding-64 w3-pale-red w3-grayscale-min" id="tablee">
+<h2>{{data.name}}' s Details</h2>
+
+<table id="customers">
+  <tr>
+    <tr>
+      <th>Name</th>
+      <th>Email</th>
+      <th>City </th>
+      <th>Qualification</th>
+      <th>Ambition</th>
+      <th>Hobbies</th>
+  </tr>
+  
+  <tr> 
+      <td>{{ data.name }}</td>
+      <td>{{ data.email}}</td>
+      <td>{{ data.city }}</td>
+      <td>{{ data.qualification }}</td>
+      <td>{{ data.ambitions }}</td>
+      <td>{{ data.hobbies }}</td>
+
+
+      
+ 
+</table>
+
+
+
+
+
+        
+    </tr>
+  
+</table>
+</div>
+
+
+<a href="/login_page"><button type="button" class="w3-button w3-block w3-black">LOGOUT</button></a>
+
+
+
+
+<!-- Navbar (sticky bottom) -->
+<div class="w3-bottom w3-hide-small">
+  <div class="w3-bar w3-white w3-center w3-padding w3-opacity-min w3-hover-opacity-off">
+    <a href="#home" style="width:25%" class="w3-bar-item w3-button">Home</a>
+    <a href="#us" style="width:25%" class="w3-bar-item w3-button">Pics</a>
+    <a href="#tablee" style="width:25%" class="w3-bar-item w3-button">Details Table</a>
+    <a href="/login_page" style="width:25%" class="w3-bar-item w3-button w3-hover-black">LOGOUT</a>
+  </div>
+</div>
+
+<!-- About / Jane And John -->
+<div class="w3-container w3-padding-64 w3-pale-red w3-grayscale-min" id="us">
+  <div class="w3-content">
+    <h1 class="w3-center w3-text-grey"><b>{{data.name}}'s favourite art</b></h1>
+    <img class="w3-round" src="https://i.pinimg.com/originals/71/2c/65/712c65cad297019b7162803c4168ac4c.jpg" style="width:100%;margin:32px 0">
+    <p><i>You might know already that I am {{data.name}}. I am from {{data.city}} and am very passionate about
+      
+      {{data.hobbies}}.{{data.hobbies}} makes me feel good and excites me all the time.
+      
+      I have completed my {{data.qualification}} and have plans of becoming an {{data.ambitions}}.</i>
+    </p><br>
+    
+  </div>
+</div>
+
+
+
+
+
+
+
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-16">
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+</footer>
+<div class="w3-hide-small" style="margin-bottom:32px"> </div>
+
+</body>
+</html>
+
+    </body>
+</html>
